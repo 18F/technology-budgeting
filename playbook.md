@@ -5,26 +5,28 @@ DRAFT DRAFT DRAFT DRAFT DRAFT
 ## Rethinking budgeting for custom technology
 
 
-* Robin Carnahan, robin.carnahan@gsa.gov
-* Randy Hart, randy.hart@gsa.gov
-* Waldo Jaquith, waldo.jaquith@gsa.gov
+By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.hart@gsa.gov), and [Waldo Jaquith](waldo.jaquith@gsa.gov)
 
-## Introduction
+---
 
-1. Who This Playbook Is For
-2. Moving Control Back to Government
-3. Who We Are
+## Table of Contents
 
-## Basic Principles of Modern Software Design: Prerequisite Concepts
+### Introduction
 
-1. Human-Centered Design
-2. Agile Software Development
-3. Product Ownership
-4. DevOps
-5. Building with Loosely-Coupled Parts
-6. Modular Contracting
+* Who This Playbook Is For
+* Moving Control Back to Government
+* Who We Are
 
-## Software Budgeting Plays
+### Basic Principles of Modern Software Design: Prerequisite Concepts
+
+* Human-Centered Design
+* Agile Software Development
+* Product Ownership
+* DevOps
+* Building with Loosely-Coupled Parts
+* Modular Contracting
+
+### Software Budgeting Plays
 
 1. Think about risk in a new way
 2. Procure software services, not software
@@ -40,7 +42,10 @@ DRAFT DRAFT DRAFT DRAFT DRAFT
 12. Budget for software as an operational expense
 13. Ask technical questions of agencies
 
-## Appendix: Questions to Ask
+### Appendix: Questions to Ask
+
+---
+
 
 ## Introduction
 
