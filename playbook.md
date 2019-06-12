@@ -478,12 +478,14 @@ When you are in the position of having to consider a budget request for a custom
 
 ---
 
+## Footnotes
+
 <small>
 
-<p class="footnote" id="footnote-1">1. Projects valued at \$6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group's "[Haze](https://www.standishgroup.com/sample_research_files/Haze4.pdf)," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
+<p class="footnote" id="footnote-1">1. Projects valued at \$6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group's "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
 
 <p class="footnote" id="footnote-2">2. A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story. <a href="#reference-2">↩︎</a></p>
 
-<p class="footnote" id="footnote-3">3. For an example QASP, [see the "Deliverables and Performance Standards" section of the U.S. Tax Court's 2018 EF-CMS RFQ](https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards). <a href="#reference-3">↩︎</a></p>
+<p class="footnote" id="footnote-3">3. For an example QASP, [see the "Deliverables and Performance Standards" section of the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">U.S. Tax Court's 2018 EF-CMS RFQ</a>. <a href="#reference-3">↩︎</a></p>
 
 </small>
