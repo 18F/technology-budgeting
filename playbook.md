@@ -11,41 +11,34 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 
 ## Table of Contents
 
-### Introduction
-
-* Who This Playbook Is For
-* Moving Control Back to Government
-* Who We Are
-
-### Basic Principles of Modern Software Design: Prerequisite Concepts
-
-* Human-Centered Design
-* Agile Software Development
-* Product Ownership
-* DevOps
-* Building with Loosely-Coupled Parts
-* Modular Contracting
-
-### Software Budgeting Plays
-
-1. Think about risk in a new way
-2. Procure software services, not software
-3. Hire tech talent in-house
-4. Minimize the cost of change
-5. Limit total spending
-6. Limit contract sizes
-7. Expand your vendor pool
-8. Fund systems, not monoliths
-9. Measure success based on iterative outcomes, not project milestones
-10. Require demos, not memos
-11. Share your software
-12. Budget for software as an operational expense
-13. Ask technical questions of agencies
-
-### Appendix: Questions to Ask
+* **[Introduction](#introduction)**
+	* [Who This Playbook Is For](#who-this-playbook-is-for)
+	* [Moving Control Back to Government](#moving-control-back-to-government)
+	* [Who We Are](#who-we-are)
+* **[Basic Principles of Modern Software Design: Prerequisite Concepts](#basic-principles-of-modern-software-design-prerequisite-concepts-)**
+	* [Human-Centered Design](#human-centered-design)
+	* [Agile Software Development](#agile-software-development)
+	* [Product Ownership](#product-ownership)
+	* [DevOps](#devops)
+	* [Building with Loosely-Coupled Parts](#building-with-loosely-coupled-parts)
+	* [Modular Contracting](#modular-contracting)
+* **[Software Budgeting Plays](#software-budgeting-plays)**
+	1. [Think about risk in a new way](#think-about-risk-in-a-new-way)
+	2. [Procure software services, not software](#procure-software-services-not-software)
+	3. [Hire tech talent in-house](#hire-tech-talent-in-house)
+	4. [Minimize the cost of change](#minimize-the-cost-of-change)
+	5. [Limit total spending](#limit-total-spending)
+	6. [Limit contract sizes](#limit-contract-sizes)
+	7. [Expand your vendor pool](#expand-your-vendor-pool)
+	8. [Fund systems, not monoliths](#fund-systems-not-monoliths)
+	9. [Measure success based on iterative outcomes, not project milestones](#measure-success-based-on-iterative-outcomes-not-project-milestones)
+	10. [Require demos, not memos](#require-demos-not-memos)
+	11. [Share your software](#share-your-software)
+	12. [Budget for software as an operational expense]()
+	13. [Ask technical questions of agencies]()
+* [Appendix: Questions to Ask](#appendix-questions-to-ask)
 
 ---
-
 
 ## Introduction
 
