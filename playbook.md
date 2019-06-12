@@ -244,7 +244,7 @@ One day, the exciting, new software system will be the old, hated software syste
 - □ APIs will use open schemas
 - □ Open source software will be used instead of commercial software whenever possible, to avoid product lock-in
 - □ Government will own all vendor work products
-- □ If using COTS components, the vendor will provide a path to leave for a competitor, both contractually and technologically, allowing a cost-effective way export all stored data
+- □ If using COTS components, the vendor will provide a path to leave for a competitor, both contractually and technologically, allowing a cost-effective way to export all stored data
 
 #### Key Questions
 
