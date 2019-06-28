@@ -1,6 +1,6 @@
 # DRAFT DRAFT DRAFT DRAFT DRAFT
 
-# Technology Budgeting and Oversight Playbook
+# Technology Budgeting and Oversight Handbook
 
 ## Rethinking budgeting for custom technology
 
@@ -12,7 +12,7 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 ## Table of Contents
 
 * **[Introduction](#introduction)**
-	* [Who This Playbook Is For](#who-this-playbook-is-for)
+	* [Who This Handbook Is For](#who-this-handbook-is-for)
 	* [Moving Control Back to Government](#moving-control-back-to-government)
 	* [Who We Are](#who-we-are)
 * **[Basic Principles of Modern Software Design: Prerequisite Concepts](#basic-principles-of-modern-software-design-prerequisite-concepts-)**
@@ -22,7 +22,7 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 	* [DevOps](#devops)
 	* [Building with Loosely-Coupled Parts](#building-with-loosely-coupled-parts)
 	* [Modular Contracting](#modular-contracting)
-* **[Software Budgeting Plays](#software-budgeting-plays)**
+* **[Software Budgeting Best Practices](#software-budgeting-best-practices)**
 	1. [Think about risk in a new way](#think-about-risk-in-a-new-way)
 	2. [Procure software services, not software](#procure-software-services-not-software)
 	3. [Hire tech talent in-house](#hire-tech-talent-in-house)
@@ -57,7 +57,7 @@ To address this, government must first overcome a number of other related challe
 - Risk-averse, siloed organizational cultures, and budget cycles that inhibit the adoption of modern, agile software design practices
 - Hiring, staffing, and other resource constraints that have led to an overreliance on outsourcing technology projects and decisions
 
-The recommendations in this playbook are premised on these guiding principles:
+The recommendations in this handbook are premised on these guiding principles:
 
 - The public deserves access to world-class technology when using government digital services
 - Taxpayers should not have to pay more than once for the same software tools and systems
@@ -68,11 +68,11 @@ The recommendations in this playbook are premised on these guiding principles:
 - Interoperable and open are better than monolithic and proprietary
 - Government is responsible for its mission of delivering services to the public and must take ownership of the technology systems designed to do that job — neither the mission nor the technology used to deliver on the mission can be effectively outsourced.
 
-### Who This Playbook Is For
+### Who This Handbook Is For
 
-This playbook is designed for executives, budget specialists, legislators, and other "non-technical" decision-makers who are tasked with funding or overseeing government technology projects. It provides guidance about the basic principles of modern software design and procurement with the goal of helping leaders better set major software projects up for success by asking the right questions before funding projects and identifying the right outcomes to use to judge the project's success.
+This handbook is designed for executives, budget specialists, legislators, and other "non-technical" decision-makers who are tasked with funding or overseeing government technology projects. It provides guidance about the basic principles of modern software design and procurement with the goal of helping leaders better set major software projects up for success by asking the right questions before funding projects and identifying the right outcomes to use to judge the project's success.
 
-This is written specifically for procurement of custom software, but it's important to note that commercial off-the-shelf software (COTS) is often custom. Software vendors often promote their offerings as COTS, knowing that it will need to be modified to function within each government environment. When COTS is modified in _any_ way, it becomes custom software, at which point the bulk of the advice in this playbook applies. On the other hand, little of this advice applies to Software as a Service (SaaS), because SaaS is inherently not customizable.
+This is written specifically for procurement of custom software, but it's important to note that commercial off-the-shelf software (COTS) is often custom. Software vendors often promote their offerings as COTS, knowing that it will need to be modified to function within each government environment. When COTS is modified in _any_ way, it becomes custom software, at which point the bulk of the advice in this handbook applies. On the other hand, little of this advice applies to Software as a Service (SaaS), because SaaS is inherently not customizable.
 
 ### Moving Control Back to Government
 
@@ -86,13 +86,13 @@ In this approach, government — in partnership with an outside vendor — works
 
 The key to this approach is understanding that software development is not a mysterious and incomprehensible magic, but instead a straightforward trade practiced by millions of Americans that is easily grasped and even mastered by government employees.
 
-The process by which government has been procuring custom software for the past few decades does not work. We know it doesn't work. The model described in this playbook does work. We know it works. Change might feel risky, but what's _really_ risky is how we're procuring software right now.
+The process by which government has been procuring custom software for the past few decades does not work. We know it doesn't work. The model described in this handbook does work. We know it works. Change might feel risky, but what's _really_ risky is how we're procuring software right now.
 
 ### Who We Are
 
 We work for [18F](https://18f.gov/), the federal technology team within the [General Service Administration](https://www.gsa.gov/), partnering with clients in federal, state, and local governments to teach them how to procure custom software quickly, efficiently, and successfully. Our team, collectively, has many years of experience in government procurement, software development, and state-level elective office.
 
-In work funded by GSA's [10x](https://10x.gsa.gov/), over the course of a year we met with state legislators, legislative fiscal staff, state budget officers, contracting officers, and gubernatorial policy advisors. This playbook came of learning from and teaching hundreds of people from dozens of states. We're grateful to the many people who contributed their time and knowledge throughout that process.
+In work funded by GSA's [10x](https://10x.gsa.gov/), over the course of a year we met with state legislators, legislative fiscal staff, state budget officers, contracting officers, and gubernatorial policy advisors. This handbook came of learning from and teaching hundreds of people from dozens of states. We're grateful to the many people who contributed their time and knowledge throughout that process.
 
 ## Basic Principles of Modern Software Design: Prerequisite Concepts
 
@@ -160,7 +160,7 @@ There are vendor teams that specialize in working as we've described here. As a 
 
 This approach will require coordination and buy-in from your procurement teams. Procurement personnel are often accustomed to the traditional approach of outsourcing IT projects: one large procurement based on lengthy RFP documents, asking for lengthy proposals and outdated, waterfall-style certifications and qualifications from vendors. Generally, vendors that use agile, user-centered methods don't have any idea what "CMMI" or "EVMS" is — such standards are no longer considered best practices for creating flexible and cost-effective software systems. This is a barrier to entry for many of the vendors that might be new to government and don't want to expend all of the resources required to write a proposal.
 
-## Software Budgeting Plays
+## Software Budgeting Best Practices
 
 ### Think about risk in a new way
 
@@ -282,7 +282,7 @@ Limit the RFP, too, keeping it below 20 pages, and spending no more than 60 days
 
 #### Key Questions
 
-- Have the relevant contracting officers read this playbook?
+- Have the relevant contracting officers read this handbook?
 - Do the contracting officers understand that they're not being asked to do all of the work that goes into a \$50M contract? Do they understand that \$2M contracts are far easier to award and that, under agile, they'll be much easier to manage?
 
 ### Expand your vendor pool
@@ -415,14 +415,14 @@ Rule of thumb: a "scrum team" of 5–9 developers costs \$1–2M/year, depending
 
 ### Ask technical questions of agencies
 
-Budget requests for custom software often feature non-technical people making a technical proposal to non-technical people. This process doesn't lend itself to asking key questions, such as many of those found throughout this playbook. It is important to ask all of those difficult technical questions, and to insist on getting the right answers. It is no kindness to fund a project that is going to fail. If the agency doesn't know exactly what they want to buy, they're not going to get it.
+Budget requests for custom software often feature non-technical people making a technical proposal to non-technical people. This process doesn't lend itself to asking key questions, such as many of those found throughout this handbook. It is important to ask all of those difficult technical questions, and to insist on getting the right answers. It is no kindness to fund a project that is going to fail. If the agency doesn't know exactly what they want to buy, they're not going to get it.
 
 #### Checklist
 
 - □ The agency will rely on the U.S. Digital Service's [Digital Services Playbook](https://playbook.cio.gov/)
 - □ If building a website, the agency will direct the vendor to use the [S. Web Design System](https://designsystem.digital.gov/)
 - □ The agency will adhere to the Defense Innovation Board's "[Ten Commandments of Software](https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF)"
-- □ The agency has read this playbook
+- □ The agency has read this handbook
 - □ The rules and questions found in the Defense Innovation Board's "[Detecting Agile BS](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF)" guide have been applied to and asked of the agency, and their answers are satisfactory
 
 #### Key Questions
@@ -437,7 +437,7 @@ Budget requests for custom software often feature non-technical people making a 
 
 ## Appendix: Questions to Ask
 
-When you are in the position of having to consider a budget request for a custom software project, it will be difficult to consult this entire playbook to find the right questions to ask. Here are some basic, open-ended questions that you can ask to determine if a project is set up for success.
+When you are in the position of having to consider a budget request for a custom software project, it will be difficult to consult this entire handbook to find the right questions to ask. Here are some basic, open-ended questions that you can ask to determine if a project is set up for success.
 
 - What is the user need that this project will address?
   - Wrong answer: Anything other than a clear, direct, confident answer.
