@@ -20,7 +20,7 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 	- [DevOps](#devops)
 	- [Building with loosely coupled parts](#building-with-loosely-coupled-parts)
 	- [Modular contracting](#modular-contracting)
-- [Best practices for budgeting and overseeing tech projects](#)
+- [Best practices for budgeting and overseeing tech projects](#best-practices-for-budgeting-and-overseeing-tech-projects)
 	- [Think about risk in a new way](#think-about-risk-in-a-new-way)
 	- [Procure services, not software](#procure-services-not-software)
 	- [Beware the customized commercial software trap](#beware-the-customized-commercial-software-trap)
@@ -36,7 +36,7 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 	- [Budget for software as an operational expense](#budget-for-software-as-an-operational-expense)
 	- [Ask technical questions of agencies](#ask-technical-questions-of-agencies)
 - [Appendix A: Questions to ask](#appendix-a-questions-to-ask)
-- [Appendix B: Sample Quality Assessment Surveillance Plan](#appendix-b-sample-quality-assessment-surveillance-plan)
+- [Appendix B: Sample Quality Assessment Surveillance Plan](#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
 
 ## Introduction
 
@@ -575,9 +575,9 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <small>
 
-<p class="footnote" id="footnote-1">1. Projects valued at \$6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
+<p class="footnote" id="footnote-1">1. Projects valued at $6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
 
-<p class="footnote" id="footnote-2">2. Of the \$90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-2">↩︎</a></p>
+<p class="footnote" id="footnote-2">2. Of the $90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-2">↩︎</a></p>
 
 <p class="footnote" id="footnote-3">3. A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story. <a href="#reference-3">↩︎</a></p>
 
@@ -591,7 +591,7 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <p class="footnote" id="footnote-8">8. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software is an anti-pattern"</a> on the 18F blog. <a href="#reference-8">↩︎</a></p>
 
-<p class="footnote" id="footnote-9">9. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than \$10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-9">↩︎</a></p>
+<p class="footnote" id="footnote-9">9. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than $10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-9">↩︎</a></p>
 
 <p class="footnote" id="footnote-10">10. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects’ outcomes get worse as more money is spent</a>. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed. <a href="#reference-10">↩︎</a></p>
 
