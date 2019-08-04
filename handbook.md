@@ -22,8 +22,8 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 	- [Modular contracting](#modular-contracting)
 - [Best practices for budgeting and overseeing tech projects](#)
 	- [Think about risk in a new way](#think-about-risk-in-a-new-way)
-	- [Procure services, not software](#procure-software-services-not-software)
-	- [Beware of the customized commercial software trap](#)
+	- [Procure services, not software](#procure-services-not-software)
+	- [Beware the customized commercial software trap](#beware-the-customized-commercial-software-trap)
 	- [Require demos, not memos](#require-demos-not-memos)
 	- [Hire tech talent in-house](#hire-tech-talent-in-house)
 	- [Minimize the cost of change](#minimize-the-cost-of-change)
@@ -57,7 +57,7 @@ This handbook also gives you the tools you need to start tackling related proble
 - Security threats
 - Hiring, staffing, and other resource constraints
 
-This is written specifically for procurement of custom software, but it’s important to recognize that commercial off-the-shelf software (COTS) is often custom and Software as a Service (SaaS) often requires custom code. Once any customization is made, the bulk of this advice in this handbook applies to these commercial offerings. (See "Beware the customized commercial software trap" for details.)
+This is written specifically for procurement of custom software, but it’s important to recognize that commercial off-the-shelf software (COTS) is often custom and Software as a Service (SaaS) often requires custom code. Once any customization is made, the bulk of this advice in this handbook applies to these commercial offerings. (See "[Beware the customized commercial software trap](#beware-the-customized-commercial-software-trap)" for details.)
 
 As government leaders, we must be good stewards of public money by demanding easy-to-use, cost-effective, sustainable digital tools for use by the public and civil servants. This handbook will help you do just that.
 
@@ -139,7 +139,7 @@ Building IT systems using loosely coupled parts, connected by open and available
 
 ### Modular contracting
 
-By combining user-centered design, agile, product ownership, DevOps, and building with loosely coupled parts, it’s possible to break up a large, risky contract into a handful of smaller contracts. A contract should be small enough that the agency will have no compunction about giving no further work to a non-performing vendor, replacing them with a new vendor. (See "Procure services, not software" for how this is done.) The rest of the vendors will continue working, so the total loss of velocity will be minimal. A new vendor should have no difficulty taking over for the old one, since the old one was delivering completed, documented, tested software every two weeks. Another benefit is that small contracts may come in under your state’s simplified procurement threshold, meaning that agencies can write a request for proposals, publish it, and award a contract, all within 90 days or so.
+By combining user-centered design, agile, product ownership, DevOps, and building with loosely coupled parts, it’s possible to break up a large, risky contract into a handful of smaller contracts. A contract should be small enough that the agency will have no compunction about giving no further work to a non-performing vendor, replacing them with a new vendor. (See "[Procure services, not software](#procure-services-not-software)" for how this is done.) The rest of the vendors will continue working, so the total loss of velocity will be minimal. A new vendor should have no difficulty taking over for the old one, since the old one was delivering completed, documented, tested software every two weeks. Another benefit is that small contracts may come in under your state’s simplified procurement threshold, meaning that agencies can write a request for proposals, publish it, and award a contract, all within 90 days or so.
 
 There are vendor teams that specialize in working as we’ve described here. As a rule of thumb, an agile development team of 5–9 people costs between \$1–2M/year, depending on their geographic location.
 
@@ -455,7 +455,7 @@ Ultimately, this can provide agencies with a predictable source of funding for s
 
 ### Ask technical questions of agencies
 
-Budget requests for custom software often feature non-technical people making a technical proposal to other non-technical people. This process doesn’t lend itself to asking key questions, such as many of those found throughout this handbook. It is important to ask all of those difficult technical questions, and to insist on getting the right answers (see Appendix A for sample questions and answers).
+Budget requests for custom software often feature non-technical people making a technical proposal to other non-technical people. This process doesn’t lend itself to asking key questions, such as many of those found throughout this handbook. It is important to ask all of those difficult technical questions, and to insist on getting the right answers ([see Appendix A for sample questions and answers](#appendix-a-questions-to-ask)).
 
 It is no kindness to fund a project that is going to fail. If the agency doesn’t know exactly what they want to buy, they’re not going to get it.
 
@@ -487,9 +487,9 @@ Wrong answer: Anything technical in nature, instead of about improving the user 
 Right answer: One or more specific user needs are named.
 
 ### What is the user need that this project will address?
-Wrong answer:Anything that doesn’t name clear needs of end users identified via user research.
+Wrong answer: Anything that doesn’t name clear needs of end users identified via user research.
 
-Right answer:The agency has determined specific needs based on interviews with end users, and can name several of those needs specifically.
+Right answer: The agency has determined specific needs based on interviews with end users, and can name several of those needs specifically.
 
 ### If the selected vendor doesn’t perform adequately, how difficult will it be to terminate the contract? How long will it take to replace them with another vendor? How much do you think that will cost?
 Wrong answer: "We would be very reluctant to terminate the contract. It would take months or years to replace them with a new vendor. Significant staff time would be required to do that, and it would set our project back by many months. Once we have a system, we’d have to start all over if we decide to change vendors."
@@ -514,12 +514,12 @@ Right answer: "Time and materials, because it’s the best way to retain the fle
 ### What value will be delivered to the users within six months?
 Wrong answer: "None — it won’t be ready by then. We plan to show it to users when everything is finished."
 
-Right answer:Specific examples are named.
+Right answer: Specific examples are named.
 
 ### Who will be the product owner?
 Wrong answer: "What is a ’product owner’?"
 
-Right answer:A specific person is named, or they’re training in-house staff to take on this role.
+Right answer: A specific person is named, or they’re training in-house staff to take on this role.
 
 ### What software development process will be used?
 Wrong answer: "Waterfall," or any answer that indicates a lack of comprehension.
@@ -529,7 +529,7 @@ Right answer: "Agile," "Extreme Programming" (XP), or "Scrum" are all acceptable
 ### On the team that prepared this request, who has experience developing software?
 Wrong answer: "Nobody."
 
-Right answer:A specific person is named.
+Right answer: A specific person is named.
 
 ### How often will work be deployed into production?
 Wrong answer: "When it’s done."
@@ -542,7 +542,7 @@ Wrong answer: "We’re looking into that."
 Right answer: "Yes, from day one."
 
 ### How much will change orders cost?
-Wrong answer:Any response that foresees change orders of any kind.
+Wrong answer: Any response that foresees change orders of any kind.
 
 Right answer: "We expect the system to change constantly in response to new user needs, new technology and new policy so that’s why we’re using a time and materials contract and an agile development approach to lower the cost of responding to these changes."
 
@@ -575,29 +575,29 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <small>
 
-<p class="footnote" id="footnote-1">1. Projects valued at \$6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "[Haze](https://www.standishgroup.com/sample_research_files/Haze4.pdf)," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
+<p class="footnote" id="footnote-1">1. Projects valued at \$6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">2. Of the \$90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "[Agencies Need to Develop Modernization Plans for Critical Legacy Systems](https://www.gao.gov/products/GAO-19-471)." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-2">↩︎</a></p>
+<p class="footnote" id="footnote-2">2. Of the \$90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-2">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">3. A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story. <a href="#reference-3">↩︎</a></p>
+<p class="footnote" id="footnote-3">3. A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story. <a href="#reference-3">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">4. Stack Overflow’s 2018 survey of 57,075 developers found that [85% of professional software developers use agile](https://insights.stackoverflow.com/survey/2018#work-_-which-methodologies-do-developers-use). [And a 2015 study by Hewlett Packard](https://softwaretestinggenius.com/docs/4aa5-7619.pdf) found that "the vast majority of organizations [they] surveyed reported that today they primarily use Agile methods." The process described here is not extraordinary in any way. <a href="#reference-4">↩︎</a></p>
+<p class="footnote" id="footnote-4">4. Stack Overflow’s 2018 survey of 57,075 developers found that <a href="https://insights.stackoverflow.com/survey/2018#work-_-which-methodologies-do-developers-use">85% of professional software developers use agile</a>. And <a href="https://softwaretestinggenius.com/docs/4aa5-7619.pdf">a 2015 study by Hewlett Packard</a> found that "the vast majority of organizations [they] surveyed reported that today they primarily use Agile methods." The process described here is not extraordinary in any way. <a href="#reference-4">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">5. For more on DevOps, see the Defense Innovation Board’s "[Is Your Development Environment Holding You Back? A DIB Guide for the Acquisition Community](https://media.defense.gov/2018/Oct/09/2002049592/-1/-1/0/DIB_DEVELOPMENT_ENVIRONMENT_2018.10.05.PDF)." <a href="#reference-5">↩︎</a></p>
+<p class="footnote" id="footnote-5">5. For more on DevOps, see the Defense Innovation Board’s "<a href="https://media.defense.gov/2018/Oct/09/2002049592/-1/-1/0/DIB_DEVELOPMENT_ENVIRONMENT_2018.10.05.PDF">Is Your Development Environment Holding You Back? A DIB Guide for the Acquisition Community</a>." <a href="#reference-5">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">6. For details, see the U.S. Department of Health &amp; Human Services’ Office of the Inspector General report about the Healthcare.gov failure, "[Case Study of CMS Management of the Federal Marketplace](https://oig.hhs.gov/oei/reports/oei-06-14-00350.asp)" and Harvard Business School case study, "[The Spectacular Fall and Fix of HealthCare.gov](https://hbswk.hbs.edu/item/the-spectacular-fall-and-fix-of-healthcare-gov)." <a href="#reference-6">↩︎</a></p>
+<p class="footnote" id="footnote-6">6. For details, see the U.S. Department of Health &amp; Human Services’ Office of the Inspector General report about the Healthcare.gov failure, "<a href="https://oig.hhs.gov/oei/reports/oei-06-14-00350.asp">Case Study of CMS Management of the Federal Marketplace</a>" and Harvard Business School case study, "<a href="https://hbswk.hbs.edu/item/the-spectacular-fall-and-fix-of-healthcare-gov">The Spectacular Fall and Fix of HealthCare.gov</a>." <a href="#reference-6">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">7. For an example RFP, see the [U.S. Tax Court’s 2018 EF-CMS RFQ](https://github.com/ustaxcourt/case-management-rfq), which includes a QASP, under the ["Deliverables and Performance Standards" section](https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards). <a href="#reference-7">↩︎</a></p>
+<p class="footnote" id="footnote-7">7. For an example RFP, see the <a href="https://github.com/ustaxcourt/case-management-rfq">U.S. Tax Court’s 2018 EF-CMS RFQ</a>, which includes a QASP, under the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">"Deliverables and Performance Standards" section</a>. <a href="#reference-7">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">8. For more about the difference between O&amp;M and continuous agile development, read ["Software is an anti-pattern"](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/) on the 18F blog. <a href="#reference-8">↩︎</a></p>
+<p class="footnote" id="footnote-8">8. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software is an anti-pattern"</a> on the 18F blog. <a href="#reference-8">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">9. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that [software projects that cost more than ]\$10 million succeed only 8% of the time](https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3). Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-9">↩︎</a></p>
+<p class="footnote" id="footnote-9">9. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than \$10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-9">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">10. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that [software projects’ outcomes get worse as more money is spent](https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3). Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed. <a href="#reference-10">↩︎</a></p>
+<p class="footnote" id="footnote-10">10. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects’ outcomes get worse as more money is spent</a>. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed. <a href="#reference-10">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">11. Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "[How Alaska is using transparency to attract modern software vendors](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/)." <a href="#reference-11">↩︎</a></p>
+<p class="footnote" id="footnote-11">11. Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "<a href="https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/">How Alaska is using transparency to attract modern software vendors</a>." <a href="#reference-11">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">12. The Bureau of Labor Statistics provides [state-level wage information for software developers](https://www.bls.gov/oes/current/oes151132.htm#IDX701), which shows that the difference between the most expensive developers (Washington state) and the least expensive (Puerto Rico) is a 150% wage gap. Even within states there can be tremendous variation in labor costs between urban areas and rural areas. As a result, insisting that vendor teams work on-site can double the cost of software. <a href="#reference-12">↩︎</a></p>
+<p class="footnote" id="footnote-12">12. The Bureau of Labor Statistics provides <a href="https://www.bls.gov/oes/current/oes151132.htm#IDX701">state-level wage information for software developers</a>, which shows that the difference between the most expensive developers (Washington state) and the least expensive (Puerto Rico) is a 150% wage gap. Even within states there can be tremendous variation in labor costs between urban areas and rural areas. As a result, insisting that vendor teams work on-site can double the cost of software. <a href="#reference-12">↩︎</a></p>
 
-<p class="footnote" id="footnote-1">13. See "[18F’s best practices for making distributed teams work](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/)" for specifics. <a href="#reference-13">↩︎</a></p>
+<p class="footnote" id="footnote-13">13. See "<a href="https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/">18F’s best practices for making distributed teams work</a>" for specifics. <a href="#reference-13">↩︎</a></p>
 </small>
