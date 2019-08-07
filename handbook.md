@@ -589,7 +589,7 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <p class="footnote" id="footnote-7">7. For an example RFP, see the <a href="https://github.com/ustaxcourt/case-management-rfq">U.S. Tax Court’s 2018 EF-CMS RFQ</a>, which includes a QASP, under the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">"Deliverables and Performance Standards" section</a>. <a href="#reference-7">↩︎</a></p>
 
-<p class="footnote" id="footnote-8">8. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software is an anti-pattern"</a> on the 18F blog. <a href="#reference-8">↩︎</a></p>
+<p class="footnote" id="footnote-8">8. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software maintenance is an anti-pattern"</a> on the 18F blog. <a href="#reference-8">↩︎</a></p>
 
 <p class="footnote" id="footnote-9">9. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than $10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-9">↩︎</a></p>
 
