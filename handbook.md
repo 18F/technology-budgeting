@@ -399,7 +399,7 @@ Although the procurement team will be tempted to seek out vendors who have previ
 - [ ] The RFP will require that vendors name their key personnel in their proposals — no more than three people — such as the lead developer or the lead designer
 - [ ] The acquisition plan includes interviewing the finalists about their proposed approach, questioning the named key personnel, _not_ the vendor’s sales staff
 - [ ] Vendor employees will not be required to work on-site at a government facility
-- [ ] Vendor teams and the government product owner will be permitted to use a desktop-based video call service, a real-time chat tool, and a public, Git-based version-control system, such as [those available for use by remote employees of the General Service Administration](https://www.gsa.gov/reference/for-gsa-employees/on-the-go) and [ther tools commonly used by agile development teams](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF#page=3).
+- [ ] Vendor teams and the government product owner will be permitted to use a desktop-based video call service, a real-time chat tool, and a public, Git-based version-control system, such as [those available for use by remote employees of the General Service Administration](https://www.gsa.gov/reference/for-gsa-employees/on-the-go) and [other tools commonly used by agile development teams](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF#page=3).
 
 #### Key questions
 
