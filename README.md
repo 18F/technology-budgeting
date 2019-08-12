@@ -1,6 +1,6 @@
-# Legacy Education Pilot
+# Technology Budgeting Handbook
 
-A 10X project to pilot a process to educate stakeholders about alternatives to legacy software development practices.
+A 10x project to pilot a process to educate stakeholders about alternatives to legacy software development practices.
 
 This repository is for document storage and issue-tracking.
 
