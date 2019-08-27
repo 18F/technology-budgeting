@@ -1,6 +1,6 @@
 # De-risking custom technology projects
 
-## A handbook for state budgeting and oversight
+## A handbook for state grantee budgeting and oversight
 
 August 5, 2019
 
@@ -40,13 +40,13 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 
 ## Introduction
 
-Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> State IT projects, in particular, are often challenged because states lack basic knowledge about modern software development, relying on outdated procurement processes.
+Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> State IT projects, in particular, are often challenged because states lack basic knowledge about modern software development, relying on outdated procurement processes. Every year, the federal government matches billions of dollars in funding to state and local governments to maintain and modernize IT systems used to implement federal programs such as Medicaid, child welfare benefits, housing, and unemployment insurance. Efforts to modernize those legacy systems fail at an alarmingly high rate and at great cost to the federal budget.
 
-State governments are increasingly reliant on modern software and hardware to deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, expensive, and ineffective.<sup id="reference-2"><a href="#footnote-2">2</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
+State governments are increasingly reliant on modern software and hardware to implement federal programs and deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, expensive, and ineffective.<sup id="reference-2"><a href="#footnote-2">2</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
 
 The public deserves a government that provides the same world-class technology they get from the commercial marketplace. Trust in government depends on it.
 
-This handbook is designed for executives, budget specialists, legislators, and other "non-technical" decision-makers who fund or oversee state government technology projects. It can help you set these projects up for success by asking the right questions, identifying the right outcomes, and equally important, empowering you with a basic knowledge of the fundamental principles of modern software design.
+This handbook is designed for executives, budget specialists, legislators, and other "non-technical" decision-makers who fund or oversee state government technology projects that receive federal funding and implement the necessary technology to support federal programs. It can help you set these projects up for success by asking the right questions, identifying the right outcomes, and equally important, empowering you with a basic knowledge of the fundamental principles of modern software design.
 
 This handbook also gives you the tools you need to start tackling related problems like:
 
@@ -65,11 +65,11 @@ As government leaders, we must be good stewards of public money by demanding eas
 
 We work for [18F](https://18f.gov/), part of the Technology Transformation Services team at the [General Services Administration](https://www.gsa.gov/) (GSA). Collectively, the three of us have many years of experience in government procurement, software development, and state-level elective office.
 
-In work funded by GSA’s [10x](https://10x.gsa.gov/), we spent a year meeting with state legislators, legislative fiscal staff, state budget officers, contracting officers, and gubernatorial policy advisors. This handbook came of learning from and teaching hundreds of people from dozens of states. We’re grateful to the many people who contributed their time and knowledge throughout that process.
+In work funded by GSA’s [10x](https://10x.gsa.gov/), we spent a year exploring how to drive down the cost of federal technology grants to states while simultaneously improving outcomes. Federal grants provide 31% of state budgets, and as a major investor in major state software systems, the federal government is keenly interested in ensuring a good return on that investment.<sup id="reference-3"><a href="#footnote-3">3</a></sup> To accomplish that, we met with state legislators, legislative fiscal staff, state budget officers, contracting officers, and gubernatorial policy advisors. This handbook came of learning from and teaching hundreds of people from dozens of states. We’re grateful to the many people who contributed their time and knowledge throughout that process.
 
 ## Basic principles of modern software design
 
-A technology project’s odds of success improve when the "non-technical" government leaders who fund and oversee it understand six basics concepts of modern software development: **user-centered design**, **agile software development**, **DevOps**, **building with loosely coupled parts**, **modular contracting**, and **product ownership**. You don’t have to be a technologist to understand these general concepts. Once you grasp them, it’ll feel like you’ve gained a new super power, allowing you to spot the BS and cut through the jargon and technical detail, and stay focused on the basics of successfully guiding any software project.
+A technology project’s odds of success improve when the "non-technical" government leaders who fund and oversee it understand six basics concepts of modern software development: **user-centered design**, **agile software development**, **DevOps**, **building with loosely coupled parts**, **modular contracting**, and **product ownership**. You don’t have to be a technologist to understand these general concepts. Once you grasp them, it’ll feel like you’ve gained a new super power, allowing you to cut through the jargon and technical detail, and stay focused on the basics of successfully guiding any software project.
 
 ### User-centered design
 
@@ -89,13 +89,13 @@ Planning an entire project upfront is known as "waterfall" development. Imagine 
 
 "[Agile software development](https://agile.18f.gov/)" refers to using this trip-planning methodology for building and modernizing software systems. Instead of relying on years of costly planning and "requirements gathering" before beginning to write actual software, agile development projects are planned only in broad strokes, with a well defined description of the overall project goal and a strong preference for _just getting started_. A small, empowered, self-motivated team (usually 5-9 people, including developers, product managers, user researchers, writers, and/or security experts) is dedicated to accomplishing that goal, using user-centered design, working in two-week cycles to deliver some actual working software.
 
-On day one, the team plans only what they’ll do for the next two weeks. (The length of a project’s cycles can be as brief as one week or as long as four weeks — two weeks is the most common.) Each task they’ll work on is in the form of a "user story" — a specific user need revealed by user research.<sup id="reference-3"><a href="#footnote-3">3</a></sup> The entire collection of user stories to be worked on is called the "backlog."
+On day one, the team plans only what they’ll do for the next two weeks. (The length of a project’s cycles can be as brief as one week or as long as four weeks — two weeks is the most common.) Each task they’ll work on is in the form of a "user story" — a specific user need revealed by user research.<sup id="reference-4"><a href="#footnote-4">4</a></sup> The entire collection of user stories to be worked on is called the "backlog."
 
 The team works on a selected group of user stories for two weeks and, at the end, the team reviews the work that they did, tests it with end users, and then plans the next two weeks by pulling more user stories from the backlog. Repeat. Each of these two-week cycles is referred to as a "sprint."
 
 In the beginning, the software they produce may not seem like much (and may even be replaced by something else later), but it will gradually and systematically inform the project’s technical approach and help the team sensibly integrate the project into an agency’s existing legacy system.
 
-Functioning software is delivered at the end of each sprint, without exception — fully-tested, fully-documented, ready to be used. In this way, value is delivered constantly, until the software is good enough to be rolled out for broad use. The team continues to work until they accomplish all of the goals or they run out of money, whichever happens first.<sup id="reference-4"><a href="#footnote-4">4</a></sup>
+Functioning software is delivered at the end of each sprint, without exception — fully-tested, fully-documented, ready to be used. In this way, value is delivered constantly, until the software is good enough to be rolled out for broad use. The team continues to work until they accomplish all of the goals or they run out of money, whichever happens first.<sup id="reference-5"><a href="#footnote-5">5</a></sup>
 
 The vendor is paid for their employees’ time, not for a software system. Everything created by the vendor — software, documentation, research, designs, _everything_ — is owned by government, delivered to government at the end of each sprint. Technology changes, government policies change, regulations change, laws change, and leadership’s priorities change — any project that is planned in great detail up front will be unable to adapt to those changes, and will be at significant risk of failure, significant cost and deadline overruns, or costly "change orders."
 
@@ -123,7 +123,7 @@ It’s possible for a first-time product owner to learn as they go, but it’s b
 
 Historically, the teams building software have been separate from the IT teams that are responsible for operating the software once it’s ready for use. A vendor might spend years building new software, and then a government IT team (or a vendor filling that role) might then require many months of work to get that software to function correctly on their servers. This is usually accompanied by frustration and finger-pointing, and can lead to project failures. To address this, government agencies often insist that the vendor building the software also host it indefinitely on the vendor’s infrastructure, which has the effect of ruling out most software vendors (who are not in the hosting business), and creating vendor lock-in with its associated high prices. Relying on these old approaches will get you less and cost more than adopting the modern software tools that are standard in the private sector.
 
-The way to address this is with DevOps. This is the practice of coordinating the work of these two groups to automate the work that goes into testing software and moving it to a live server where people can use it — merging software **dev**elopment and system **op**erations. The developers write a series of automated processes for ensuring that the software will function properly in production, over the course of writing the software itself. Developers cannot merely hand their completed work to the system operations team and declare "hey, it works for us" — they are responsible, both practically and contractually, for their code working properly.<sup id="reference-5"><a href="#footnote-5">5</a></sup>
+The way to address this is with DevOps. This is the practice of coordinating the work of these two groups to automate the work that goes into testing software and moving it to a live server where people can use it — merging software **dev**elopment and system **op**erations. The developers write a series of automated processes for ensuring that the software will function properly in production, over the course of writing the software itself. Developers cannot merely hand their completed work to the system operations team and declare "hey, it works for us" — they are responsible, both practically and contractually, for their code working properly.<sup id="reference-6"><a href="#footnote-6">6</a></sup>
 
 Odds are good that most of the software you use every day, whether on your phone or your computer, was written just like this. Under DevOps, testing software quality is automatic, testing software security is automatic, merging multiple developers’ work is automatic, and moving completed software to servers is automatic. (The incorporation of security testing in DevOps is sometimes labeled as "DevSecOps.")
 
@@ -155,7 +155,7 @@ Modern software development processes are founded on user-centered design, agile
 
 Over the past several decades, government agencies have turned away from using in-house staff, relying on outside vendors to build their mission-critical technology. The decisions to do this were based on trade-offs that seemed like lower-risk options — often driven by limited capacity and promises of cheaper "off the shelf" tools offered by government contractors.
 
-However, we’ve learned from examples like Healthcare.gov that while government can easily outsource the work of creating new technology systems, it cannot outsource the risk of failure.<sup id="reference-6"><a href="#footnote-6">6</a></sup> Projects that go wrong reflect back on their agencies, not contractors or software providers.
+However, we’ve learned from examples like Healthcare.gov that while government can easily outsource the work of creating new technology systems, it cannot outsource the risk of failure.<sup id="reference-7"><a href="#footnote-7">7</a></sup> Projects that go wrong reflect back on their agencies, not contractors or software providers.
 
 Government is ultimately accountable for its mission, so agencies need to have control of and responsibility for the projects that support that mission. The problem an IT budget request aims to solve is not a technical problem; it is a problem related to fulfilling the agency’s mission, and technology is simply a means to that end.
 
@@ -183,7 +183,7 @@ Your RFP should describe the overall goal of the work, and should include a firs
 
 The RFP should use a Statement of Objectives rather than a Statement of Work — that is, it should state the objectives of the project, rather than the specifics of a product that the vendor should produce. Using a SOO instead of a SOW eliminates "change orders" from vendors, because the scope of work is whatever the team is directed to do. (If an ostensibly "agile" vendor mentions change orders, that’s a red flag.)
 
-To ensure vendors deliver work that meets the needed technical specifications, it is important that the RFP include a Quality Assessment Surveillance Plan (QASP) that is appropriate for agile development methods, requiring that the software be inspected at the end of each sprint to ensure that it is tested, secure, accessible, documented, and deployed.<sup id="reference-7"><a href="#footnote-7">7</a></sup> (See [Appendix B for sample QASP](#appendix-b-sample-quality-assessment-surveillance-plan-qasp).) Meeting this requirement requires regular demonstrations of actual, working software, not memos or descriptions of what a system is supposed to do in the future.
+To ensure vendors deliver work that meets the needed technical specifications, it is important that the RFP include a Quality Assessment Surveillance Plan (QASP) that is appropriate for agile development methods, requiring that the software be inspected at the end of each sprint to ensure that it is tested, secure, accessible, documented, and deployed.<sup id="reference-8"><a href="#footnote-8">8</a></sup> (See [Appendix B for sample QASP](#appendix-b-sample-quality-assessment-surveillance-plan-qasp).) Meeting this requirement requires regular demonstrations of actual, working software, not memos or descriptions of what a system is supposed to do in the future.
 
 Historically, there has been pressure to only use firm fixed price contracts, on the assumption that this reduces risk. However, if you are in a position to constantly measure software quality, then a time and materials contract — with a ceiling on total spending — allows for more flexibility for the software development team. A time and materials contract also allows for much easier escape clauses if the direction of the work changes or the vendor team is not producing quality software. If a vendor team’s work is inadequate, or their skills prove inappropriate, then no further work need be assigned to that vendor (effectively terminating the contract), and the vendor can be replaced.
 
@@ -209,7 +209,7 @@ Historically, there has been pressure to only use firm fixed price contracts, on
 
 Commercial off-the-shelf software (COTS) and Software as a Service (SaaS) can be great ways to rapidly procure new software or infrastructure without having to build it from scratch. For example, it makes perfect sense to buy a COTS word processor instead of building your own custom word processor.
 
-But for major procurements of specialized, mission-critical technology, be extremely wary of claims that COTS or SaaS will work "out of the box." Vendors will often pitch their "customizable COTS" and SaaS as a magic bullet, promising that it will handle your state’s unique regulatory and process requirements. And it might — but likely only after extensive modifications.
+But for major procurements of specialized, mission-critical technology, be extremely wary of claims that COTS or SaaS will work "out of the box." Vendors will often pitch their "customizable COTS" and SaaS as a magic bullet, promising that it will handle your unique regulatory and process requirements. And it might — but likely only after extensive modifications.
 
 Before signing on to those tools, first talk to other state agencies that have used those customized products. Chances are you’ll learn that what’s being sold as an out of the box solution takes a lot more time and money to customize than you’ve anticipated.
 
@@ -261,13 +261,13 @@ To determine if your budget office or your leadership has the experience to cons
 
 If you don’t currently have the knowledge you need in-house, you’ll need to hire someone who does — even if only seasonally or on contract. A developer or designer with experience building modern software, ideally for government, is your best bet. Also, consider authorizing one or more employees to spend some of their training time learning the basics of agile software development — there are coding "bootcamps" throughout the U.S., including some online-only options.
 
-The personnel cost of bringing in a developer or upskilling your current employees is miniscule in comparison to state spending on technology. And once an employee has monitored an agile project from start to finish, they’ll be better equipped to consider future budget requests for custom software.
+The personnel cost of bringing in a developer or upskilling your current employees is miniscule in comparison to spending on technology. And once an employee has monitored an agile project from start to finish, they’ll be better equipped to consider future budget requests for custom software.
 
 Likewise, mission agencies must directly employ enough developers that they can oversee the work being done by vendors. They’ll represent the contracting officer, ensuring that vendors’ work is of a high quality and that vendors are working on the right things.
 
 Although software is never "done" — you’ll always need to adapt to changing technology, policy, regulations, laws, and user needs — there will be a point when you need far fewer developers to continue that work. At that point it becomes especially important to have multiple agency employees who fully grasp the software, who are capable of maintaining it.
 
-For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government product owner. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.<sup id="reference-8"><a href="#footnote-8">8</a></sup>
+For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government product owner. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.<sup id="reference-9"><a href="#footnote-9">9</a></sup>
 
 #### Checklist
 
@@ -287,7 +287,7 @@ Your state government will exist longer than any piece of software. And that mea
 
 As good as software may be today, eventually you’ll need to switch to a new system – whether that’s in whole or in part. And acquiring software as a completed monolith guarantees it will gradually become unable to support an agency’s needs.
 
-Technology changes, government policies change, regulations change, laws change, and leadership’s priorities change — any project that is planned in great detail up front will be unable to adapt to those changes, and will be at significant risk of failure, significant cost and deadline overruns, or costly "change orders."
+Technology changes, government policies change, regulations change, laws change, federal grant requirements change, and leadership’s priorities change — any project that is planned in great detail up front will be unable to adapt to those changes, and will be at significant risk of failure, significant cost and deadline overruns, or costly "change orders."
 
 So rather than acquiring one giant piece of proprietary software, insist that your vendors default to practices like using open-source software and service-oriented architecture. That way, you can optimize for reducing the cost of updating and changing the system from the beginning.
 
@@ -329,7 +329,7 @@ Don’t measure progress in "story points," lines of code written, person-hours 
 
 ### Limit total spending
 
-The greater the amount of money spent on a software project, the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.<sup id="reference-9"><a href="#footnote-9">9</a></sup> (There are rare exceptions for extraordinarily complex systems like unemployment insurance, Medicaid Eligibility &amp; Enrollment, and Medicaid Management Information Systems.)
+The greater the amount of money spent on a software project, the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.<sup id="reference-10"><a href="#footnote-10">10</a></sup> (There are rare exceptions for extraordinarily complex systems like unemployment insurance, Medicaid Eligibility &amp; Enrollment, and Medicaid Management Information Systems.)
 
 #### Checklist
 
@@ -338,12 +338,12 @@ The greater the amount of money spent on a software project, the greater the odd
 #### Key questions
 
 - If the project "requires" \$20 million in funding, what value can be delivered to end users with \$10 million? Or \$2 million? (If the answer is "none," then this is a project doomed to fail)
-- If this spending is matched by federal dollars — especially at a highly-leveraged rate, like the 9:1 match provided by the Centers for Medicare &amp; Medicaid Services for Medicaid Management Information Systems — is anybody going to get in trouble for leaving money on the table?
+- When this spending is matched by federal dollars — especially at a highly-leveraged rate, like the 9:1 match provided by the Centers for Medicare &amp; Medicaid Services for Medicaid Management Information Systems — is anybody going to get in trouble for leaving money on the table?
 - Is there somebody whose performance is measured by how much grant funding they raise and who has an incentive to demand that \$100 million be spent, instead of \$10 million?
 
 ### Limit contract sizes
 
-Using a single vendor over a long period of time, or for a large number of teams, may feel more comfortable, but it inevitably leads to vendor lock-in. Breaking up projects into several small contracts incentivizes vendors to build a sustainable software ecosystem, instead of a monolith, and makes each contract small enough that the odds of success increase markedly.<sup id="reference-10"><a href="#footnote-10">10</a></sup>
+Using a single vendor over a long period of time, or for a large number of teams, may feel more comfortable, but it inevitably leads to vendor lock-in. Breaking up projects into several small contracts incentivizes vendors to build a sustainable software ecosystem, instead of a monolith, and makes each contract small enough that the odds of success increase markedly.<sup id="reference-11"><a href="#footnote-11">11</a></sup>
 
 Require that no more than \$2 million be spent on any single contract annually, and that no contract last for more than three years, including option periods. That way, you’ll get no more than two development teams from a single vendor. If the project needs more development teams, obtain them from another vendor and have them work separately. Limit the RFP, too, keeping it below 20 pages; don’t spend any longer than 60 days writing it.
 
@@ -383,9 +383,9 @@ Don’t replace the old legacy system with a new legacy system. Insist on loosel
 
 Your existing vendors are unlikely to employ the modern software development practices outlined in this handbook — they were hired for their legacy practices back when that was what you needed. To find vendors who meet your new needs, you’ll likely need to identify and attract new companies that use modern software development practices.
 
-If it is important to get bids from in-state vendors, then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your state.<sup id="reference-11"><a href="#footnote-11">11</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
+If it is important to get bids from in-state vendors, then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your state.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
 
-In places like California, Washington, New York, Virginia, and Maryland, the cost of an agile team can be easily twice the cost of a team in the Midwest or the northern plains — a difference of over \$1 million each year with no difference in quality. That’s a price point at which it’s worth rethinking how important it is that the team be local, or even in-state.<sup id="reference-12"><a href="#footnote-12">12</a></sup> Encouraging distributed vendor teams also gives you access to a wider talent pool, so it’s smart to embrace distributed working best practices to engage with development teams<sup id="reference-13"><a href="#footnote-13">13</a></sup> and only require on-site visits when necessary (such as for user research).
+In places like California, Washington, New York, Virginia, and Maryland, the cost of an agile team can be easily twice the cost of a team in the Midwest or the northern plains — a difference of over \$1 million each year with no difference in quality. That’s a price point at which it’s worth rethinking how important it is that the team be local, or even in-state.<sup id="reference-13"><a href="#footnote-13">13</a></sup> Encouraging distributed vendor teams also gives you access to a wider talent pool, so it’s smart to embrace distributed working best practices to engage with development teams<sup id="reference-14"><a href="#footnote-14">14</a></sup> and only require on-site visits when necessary (such as for user research).
 
 How do you find those qualified small businesses? There are a number of cities and states that have created a pool of agile software vendors. For example, [California’s Department of Technology has a vendor pool](https://github.com/CDTProcurement/adpq) that adds new companies on a rolling basis. Seek out and draw from these vendor pools, and include some of these companies in future RFP processes. Also, ask around among colleagues in other state agencies to see if they can recommend any vendors to include. Finally, try thinking like a software developer looking for a job, and check out sites that are well-known for posting job opportunities and professional networking, to identify agile vendors in your state. This entire process only takes a few hours.
 
@@ -399,7 +399,7 @@ Although the procurement team will be tempted to seek out vendors who have previ
 - [ ] The RFP will require that vendors name their key personnel in their proposals — no more than three people — such as the lead developer or the lead designer
 - [ ] The acquisition plan includes interviewing the finalists about their proposed approach, questioning the named key personnel, _not_ the vendor’s sales staff
 - [ ] Vendor employees will not be required to work on-site at a government facility
-- [ ] Vendor teams and the government product owner will be permitted to use a desktop-based video call service, a real-time chat tool, and a public, Git-based version-control system, such as [those available for use by remote employees of the General Service Administration](https://www.gsa.gov/reference/for-gsa-employees/on-the-go) and [other tools commonly used by agile development teams](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF#page=3).
+- [ ] Vendor teams and the government product owner will be permitted to use a desktop-based video call service, a real-time chat tool, and a public, Git-based version-control system, such as [those available for use by remote employees of the General Service Administration](https://www.gsa.gov/reference/for-gsa-employees/on-the-go) and [other tools commonly used by agile development teams](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF#page=3)
 
 #### Key questions
 
@@ -411,7 +411,7 @@ Although the procurement team will be tempted to seek out vendors who have previ
 
 An agency’s software is likely to be useful, in whole or in part, to other agencies within the state, to local and regional governments within the state, or to similar agencies in other states. Additionally, in many states [software created as a work of government is inherently in the public domain](http://copyright.lib.harvard.edu/states/), which means an open-records request is all that’s necessary for software to become public.
 
-If the software is published openly, vendors’ employees will be eager to work on it — it becomes a rare case of work that they can add to their portfolio for future jobs or share with friends, which helps to ensure that you’re getting their best work. Also, additional RFPs issued for the project can direct vendors to the code that’s already been written, allowing them to see exactly what they’ll be working on or interfacing with.
+If the software is published openly, vendors’ employees will be eager to work on it — it becomes a rare case of work that they can add to their portfolio for future jobs or share with friends, which helps to ensure that you’re getting their best work. Also, additional RFPs issued for the project can direct vendors to the code that’s already been written, allowing them to see exactly what they’ll be working on or interfacing with. A federal agency funding the work may be eager to find ways to share your software with other states that they’re also funding.
 
 #### Checklist
 
@@ -451,7 +451,7 @@ Ultimately, this can provide agencies with a predictable source of funding for s
 
 - Is the requested funding going to be spent within a single budget period?
 - Perhaps \$50 million is being requested, but what value can be delivered to end users with \$2 million? And the next \$2 million? And so on?
-- If this project is being funded using federal dollars, is the federal agency amenable to taking an operational approach to the funding?
+- Is a federal agency funding the work amenable to taking an operational approach to the funding?
 
 ### Ask technical questions of agencies
 
@@ -579,25 +579,27 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <p class="footnote" id="footnote-2">2. Of the $90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-2">↩︎</a></p>
 
-<p class="footnote" id="footnote-3">3. A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story. <a href="#reference-3">↩︎</a></p>
+<p class="footnote" id="footnote-3">3. The National Association of State Budget Officers’ “2018 State Expenditure Report” finds that federal grants provide an average of 31.2% of each state’s budget, climbing by 5.7% in FY2018. <a href="#reference-3">↩︎</a></p>
 
-<p class="footnote" id="footnote-4">4. Stack Overflow’s 2018 survey of 57,075 developers found that <a href="https://insights.stackoverflow.com/survey/2018#work-_-which-methodologies-do-developers-use">85% of professional software developers use agile</a>. And <a href="https://softwaretestinggenius.com/docs/4aa5-7619.pdf">a 2015 study by Hewlett Packard</a> found that "the vast majority of organizations [they] surveyed reported that today they primarily use Agile methods." The process described here is not extraordinary in any way. <a href="#reference-4">↩︎</a></p>
+<p class="footnote" id="footnote-4">4. A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story. <a href="#reference-4">↩︎</a></p>
 
-<p class="footnote" id="footnote-5">5. For more on DevOps, see the Defense Innovation Board’s "<a href="https://media.defense.gov/2018/Oct/09/2002049592/-1/-1/0/DIB_DEVELOPMENT_ENVIRONMENT_2018.10.05.PDF">Is Your Development Environment Holding You Back? A DIB Guide for the Acquisition Community</a>." <a href="#reference-5">↩︎</a></p>
+<p class="footnote" id="footnote-5">5. Stack Overflow’s 2018 survey of 57,075 developers found that <a href="https://insights.stackoverflow.com/survey/2018#work-_-which-methodologies-do-developers-use">85% of professional software developers use agile</a>. And <a href="https://softwaretestinggenius.com/docs/4aa5-7619.pdf">a 2015 study by Hewlett Packard</a> found that "the vast majority of organizations [they] surveyed reported that today they primarily use Agile methods." The process described here is not extraordinary in any way. <a href="#reference-5">↩︎</a></p>
 
-<p class="footnote" id="footnote-6">6. For details, see the U.S. Department of Health &amp; Human Services’ Office of the Inspector General report about the Healthcare.gov failure, "<a href="https://oig.hhs.gov/oei/reports/oei-06-14-00350.asp">Case Study of CMS Management of the Federal Marketplace</a>" and Harvard Business School case study, "<a href="https://hbswk.hbs.edu/item/the-spectacular-fall-and-fix-of-healthcare-gov">The Spectacular Fall and Fix of HealthCare.gov</a>." <a href="#reference-6">↩︎</a></p>
+<p class="footnote" id="footnote-6">6. For more on DevOps, see the Defense Innovation Board’s "<a href="https://media.defense.gov/2018/Oct/09/2002049592/-1/-1/0/DIB_DEVELOPMENT_ENVIRONMENT_2018.10.05.PDF">Is Your Development Environment Holding You Back? A DIB Guide for the Acquisition Community</a>." <a href="#reference-6">↩︎</a></p>
 
-<p class="footnote" id="footnote-7">7. For an example RFP, see the <a href="https://github.com/ustaxcourt/case-management-rfq">U.S. Tax Court’s 2018 EF-CMS RFQ</a>, which includes a QASP, under the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">"Deliverables and Performance Standards" section</a>. <a href="#reference-7">↩︎</a></p>
+<p class="footnote" id="footnote-7">7. For details, see the U.S. Department of Health &amp; Human Services’ Office of the Inspector General report about the Healthcare.gov failure, "<a href="https://oig.hhs.gov/oei/reports/oei-06-14-00350.asp">Case Study of CMS Management of the Federal Marketplace</a>" and Harvard Business School case study, "<a href="https://hbswk.hbs.edu/item/the-spectacular-fall-and-fix-of-healthcare-gov">The Spectacular Fall and Fix of HealthCare.gov</a>." <a href="#reference-7">↩︎</a></p>
 
-<p class="footnote" id="footnote-8">8. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software maintenance is an anti-pattern"</a> on the 18F blog. <a href="#reference-8">↩︎</a></p>
+<p class="footnote" id="footnote-8">8. For an example RFP, see the <a href="https://github.com/ustaxcourt/case-management-rfq">U.S. Tax Court’s 2018 EF-CMS RFQ</a>, which includes a QASP, under the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">"Deliverables and Performance Standards" section</a>. <a href="#reference-8">↩︎</a></p>
 
-<p class="footnote" id="footnote-9">9. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than $10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-9">↩︎</a></p>
+<p class="footnote" id="footnote-9">9. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software maintenance is an anti-pattern"</a> on the 18F blog. <a href="#reference-9">↩︎</a></p>
 
-<p class="footnote" id="footnote-10">10. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects’ outcomes get worse as more money is spent</a>. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed. <a href="#reference-10">↩︎</a></p>
+<p class="footnote" id="footnote-10">10. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than $10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-10">↩︎</a></p>
 
-<p class="footnote" id="footnote-11">11. Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "<a href="https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/">How Alaska is using transparency to attract modern software vendors</a>." <a href="#reference-11">↩︎</a></p>
+<p class="footnote" id="footnote-11">11. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects’ outcomes get worse as more money is spent</a>. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed. <a href="#reference-11">↩︎</a></p>
 
-<p class="footnote" id="footnote-12">12. The Bureau of Labor Statistics provides <a href="https://www.bls.gov/oes/current/oes151132.htm#IDX701">state-level wage information for software developers</a>, which shows that the difference between the most expensive developers (Washington state) and the least expensive (Puerto Rico) is a 150% wage gap. Even within states there can be tremendous variation in labor costs between urban areas and rural areas. As a result, insisting that vendor teams work on-site can double the cost of software. <a href="#reference-12">↩︎</a></p>
+<p class="footnote" id="footnote-12">12. Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "<a href="https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/">How Alaska is using transparency to attract modern software vendors</a>." <a href="#reference-12">↩︎</a></p>
 
-<p class="footnote" id="footnote-13">13. See "<a href="https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/">18F’s best practices for making distributed teams work</a>" for specifics. <a href="#reference-13">↩︎</a></p>
+<p class="footnote" id="footnote-13">13. The Bureau of Labor Statistics provides <a href="https://www.bls.gov/oes/current/oes151132.htm#IDX701">state-level wage information for software developers</a>, which shows that the difference between the most expensive developers (Washington state) and the least expensive (Puerto Rico) is a 150% wage gap. Even within states there can be tremendous variation in labor costs between urban areas and rural areas. As a result, insisting that vendor teams work on-site can double the cost of software. <a href="#reference-13">↩︎</a></p>
+
+<p class="footnote" id="footnote-14">14. See "<a href="https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/">18F’s best practices for making distributed teams work</a>" for specifics. <a href="#reference-14">↩︎</a></p>
 </small>
