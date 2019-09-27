@@ -79,8 +79,6 @@ Designing with and for users reduces project risks by ensuring the software is s
 
 In user-centered design, all work is in the service of those end users’ needs. That work is identified and prioritized in close and regular collaboration with end users, and is informed by, but not subservient to, any technical constraints. (That is, the goal of the work is to deliver value to users, which involves dealing with the realities of approved programming languages or server software, but work should never be omitted because of the perception that technical constraints would make it impossible.) The technical team and end users regularly review the work, as it is being performed, and the development work on the new software is not considered finished until those end users agree that their needs have been met. Designing with and for users reduces project risks by ensuring the software is solving users’ problems.
 
-In short, user-centered design says to do what actual, relevant humans need, and not what their boss’s boss _thinks_ that they need.
-
 ### Agile software development
 
 Detailed, long-term plans for major, custom software projects have long been the norm in government. But, as software engineers and policy makers have learned over the years, those plans are never correct. They need a lot of costly modifications, leading to requests for more money to pay for "change orders". It’s time for government executives and budget officials to stop asking for detailed long-term plans, and instead to budget for software projects in a new way.
@@ -117,7 +115,7 @@ A strong product owner ensures that the vision is clear, the strategy is clear, 
 
 This is different than typical project management in government IT. The product owner won’t have Gantt charts or a detailed 5-year plan. But they will have a vision for the outcomes that will be delivered to users, and have a path to executing. Their most important job is to understand what the development team is doing and to make sure it strikes the right balance between the needs of government and the needs of end users.
 
-It’s possible for a first-time product owner to learn as they go, but it’s better to be trained in advance. There are many sources of agile and scrum training, some specifically for product owners. These range from YouTube video series to [in-person, multi-day classes to become a "Certified Scrum Product Owner."](https://www.scrumalliance.org/courses-events/search?ctyp=Cspo&amp;rad=30&amp;pg=1) The more important the project, the more formal and rigorous that the product owner’s training should be.
+It’s possible for a first-time product owner to learn as they go, but it’s better to be trained in advance. There are many sources of agile and scrum training, some specifically for product owners. These range from YouTube video series to in-person, multi-day classes to become a "Certified Scrum Product Owner." The more important the project, the more formal and rigorous that the product owner’s training should be.
 
 ### DevOps
 
